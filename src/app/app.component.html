@@ -1,0 +1,32 @@
+<html>
+<header>
+  <div class="page-header">
+    <div class="counter">
+      <div class="navLinks">
+        <a [routerLink]="['/login']">Login</a>
+        |
+        <a [routerLink]="['/home']">Home</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="content">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+</html>
+<footer class="page-footer">
+  <!-- Footer Text -->
+  <div class="container text-center">
+        <!-- Grid column -->
+    <p>
+      Address: #XYZ, ABC building, Postal code - xxxxxx
+    </p>
+    <p>
+      Phone Number: 031xxxxxxxxx
+    </p>
+  </div>
+</footer>
+<!-- Footer -->
